@@ -1,0 +1,73 @@
+/* .animation {
+    width: 250px;
+    height: 600px; 
+    background-color: red;
+    /* animation-name: anim;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(.82,.16,.06,.91);
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards; свойства анимации*/
+   /*animation: anim 5s cubic-bezier(.82,.16,.61,.43) 1s 3 alternate forwards ;
+    animation-play-state: running;
+}
+.animation:hover {
+    animation-play-state: paused;
+}
+@keyframes anim {
+    0% {
+        background-color: green;
+    }
+    25% {
+        background-color: black;
+    }
+    80% {
+        width: 500px;
+    }
+    100% {
+        height: 300px;
+    }
+}  создание класса анимации*/
+/* .flex {
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content:stretch;
+
+}
+.child {
+    height: 60px;
+    width: 400px;
+    background-color: seagreen;
+    overflow: hidden;
+} */
+.flex {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    height: 500px;
+}
+.child {
+    height: 50px;
+    background-color: blue;
+    flex-basis: 150px;
+    overflow: hidden;
+    border: black solid 2px;
+    flex-shrink: 2;
+}
+.child2 {
+    overflow: hidden;
+    border: black solid 2px;
+    background-color: green;
+    flex-basis: 150px;
+    height: 120px;
+}
+.child3 {
+    flex-shrink: 2;
+    flex-basis: 190px;
+    border: black solid 2px;
+    align-self: flex-end;
+    height: 150px;
+}
